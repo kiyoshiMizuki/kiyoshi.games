@@ -73,14 +73,14 @@ p a, li a, footer a {
 
 p a:hover, li a:hover, footer a:hover { color: #AAAAFF; }
 
-@media screen and (max-width:800px) and (min-width:700px) {
+@media screen and (max-width:800px) and (min-width:725px) {
   body {
     padding-left: 25px;
     padding-right: 25px;
   }
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:725px) {
   #title, #copyright { float: left; }
   #social { float: right; }
   #footercontacts {
@@ -89,7 +89,7 @@ p a:hover, li a:hover, footer a:hover { color: #AAAAFF; }
   }
 }
 
-@media screen and (max-width:699px) {
+@media screen and (max-width:724px) {
   header {
     height: auto;
     justify-content: center;
